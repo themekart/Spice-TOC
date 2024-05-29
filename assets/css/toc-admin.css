@@ -1,0 +1,23 @@
+.toc-settings-page h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.toc-settings-page .form-table th {
+  width: 20%;
+}
+
+.toc-settings-page .form-table td {
+  width: 80%;
+}
+
+.toc-settings-page .form-table td select,
+.toc-settings-page .form-table td input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+}
+
+.toc-settings-page .form-table td p.description {
+  font-size: 0.9em;
+  color: #666;
+}

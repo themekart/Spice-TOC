@@ -1,0 +1,28 @@
+#toc-container {
+  margin-bottom: 20px;
+}
+
+#floating-toc {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: <?php echo esc_attr(get_option('toc_width', '200px'));
+  ?>;
+  background-color: <?php echo esc_attr(get_option('toc_background_color', '#ffffff'));
+  ?>;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 1000;
+  color: <?php echo esc_attr(get_option('toc_text_color', '#000000'));
+  ?>;
+}
+
+#floating-toc ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#floating-toc li {
+  margin: 5px 0;
+}

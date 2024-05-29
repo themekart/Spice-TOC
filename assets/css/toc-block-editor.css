@@ -1,0 +1,5 @@
+/* Styles for the block editor */
+.wp-block-adv-toc-block {
+  border: 1px dashed #ccc;
+  padding: 10px;
+}
